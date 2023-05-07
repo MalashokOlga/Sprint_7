@@ -4,14 +4,68 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3661bf31-a2bd-4d4e-8b83-a1e5aa64bde0" name="Changes" comment="" />
+    <list default="true" id="3661bf31-a2bd-4d4e-8b83-a1e5aa64bde0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/pojo_objects/AvailableStations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/pojo_objects/OrderList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/pojo_objects/Orders.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/pojo_objects/PageInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/02bebf32-b096-4112-bedf-54dbff0f1deb-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/06f1080f-0b08-4b29-a5b1-4f8b27845d66-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/15e5e4ef-b9e6-4b24-89d2-be3e8a92ef78-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/28f7bc69-f4f3-452b-880f-2e841391acfe-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/2c0cb49c-1950-4fdc-b69d-81511a2f44dc-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/57a72141-ac42-4639-99dd-e0cd2e73cc83-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/6e33d521-4c97-4052-bed3-36e44a852136-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/75b3d423-626a-45d5-a240-649d00422d1c-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/8a707aa5-424d-4996-953b-78c696241ca7-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/9727b58b-2dcd-46d0-8b5b-979c2da405ec-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/a51f62a9-9798-42f9-93b8-d21f58c6548f-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/aa615188-e2cb-47af-adae-aa8bfea5147b-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/allure.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/c2fed6b5-b29e-4c5e-abd5-89fd9f782aa0-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/c94a36ef-0f66-4600-9812-b7df2fbbd783-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/d415868d-77f4-4ef9-a5cc-58f16b8820b1-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/d9283787-609f-42ae-b15c-c3b3aa89bb79-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/d9bbd43a-8bf9-4f1c-9843-90fd710c4898-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/executor.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/f7f57499-3b7a-4cf5-b2c4-9a6e5a9a393b-result.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Courier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Courier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CourierClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CourierClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CourierCredentials.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CourierCredentials.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CourierGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CourierGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/OrderClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OrderClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/OrderList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RestClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RestClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestCanNotCreateCourier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestCanNotCreateCourier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestCanNotCreateSameCouriers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestCanNotCreateSameCouriers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestCourierCreate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestCourierCreate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestCourierLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestCourierLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestCourierLoginNoData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestCourierLoginNoData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestCourierLoginWrongData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestCourierLoginWrongData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestOrderCreate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestOrderCreate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestOrderList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestOrderList.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -29,9 +83,80 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_directory_selection": "D:/Yandex_practicum/Sprint_7/src/main/java/pojo_odjects",
+    "last_opened_file_path": "D:/Yandex_practicum/Sprint_7/src/main/java/pojo_odjects",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Yandex_practicum\Sprint_7\src\main\java\pojo_odjects" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="pojo_odjects" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.TestOrderList">
+    <configuration name="TestCourierCreate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sprint_7_practice" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestCourierCreate" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestCourierLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sprint_7_practice" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestCourierLogin" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestCourierLoginWrongData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sprint_7_practice" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestCourierLoginWrongData" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestOrderCreate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sprint_7_practice" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestOrderCreate" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestOrderList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sprint_7_practice" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestOrderList" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestOrderList" />
+        <item itemvalue="JUnit.TestOrderCreate" />
+        <item itemvalue="JUnit.TestCourierCreate" />
+        <item itemvalue="JUnit.TestCourierLogin" />
+        <item itemvalue="JUnit.TestCourierLoginWrongData" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
