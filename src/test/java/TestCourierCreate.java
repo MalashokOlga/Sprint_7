@@ -15,7 +15,7 @@ import static org.junit.Assert.assertEquals;
 public class TestCourierCreate {
 
     private CourierClient courierClient;
-    private Courier courier;
+    private static Courier courier;
     private int courierId;
 
     @Parameterized.Parameter
@@ -27,8 +27,9 @@ public class TestCourierCreate {
 
     @Parameterized.Parameters(name = "{index}: данные для создания курьера")
     public static Object[][] loginData() {
-        return new Object[][] {{"login1", "password1", "firstName1"},
-                {"olmal", "1234", ""}};
+        courier = CourierGenerator.getRandom();
+        return new Object[][] {{courier.getLogin(), courier.getPassword(), courier.getFirstName()},
+                {courier.getLogin(), courier.getPassword(), null}};
     }
 
     @Before

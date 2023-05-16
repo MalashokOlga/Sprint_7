@@ -11,25 +11,28 @@ import static org.junit.Assert.assertEquals;
 @RunWith(Parameterized.class)
 public class TestCanNotCreateCourier {
     private CourierClient courierClient;
-    private Courier courier;
+    private static Courier courier;
 
     @Parameterized.Parameter
     public String login;
     @Parameterized.Parameter(1)
     public String password;
+    @Parameterized.Parameter(2)
+    public String firstName;
 
     @Parameterized.Parameters(name = "{index}: данные для создания курьера")
     public static Object[][] loginData() {
+        courier = CourierGenerator.getRandom();
         return new Object[][] {
-                {"login", null},
-                {null, "password"},
-                {null, null}};
+                {courier.getLogin(), null, courier.getFirstName()},
+                {null, courier.getPassword(), courier.getFirstName()},
+                {null, null, courier.getFirstName()}};
     }
 
     @Before
     public void setUp() {
         courierClient = new CourierClient();
-        courier = new Courier(login, password, "firstName");
+        courier = new Courier(login, password, firstName);
     }
 
     @Test

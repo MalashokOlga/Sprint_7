@@ -1,12 +1,15 @@
 import io.restassured.response.ValidatableResponse;
 import ru.pojo_objects.OrderList;
 
+import java.util.HashMap;
+
 import static io.restassured.RestAssured.*;
 
 public class OrderClient extends RestClient {
     private static final String ORDER_PATH = "/api/v1/orders";
     private static final String ORDER_TRACK = "/api/v1/orders/track?t=";
     private static final String ORDER_CANCEL = "/api/v1/orders/cancel";
+    private static HashMap<String, Integer> trackNum;
 
     public ValidatableResponse create(Order order) {
         return given()
@@ -42,7 +45,8 @@ public class OrderClient extends RestClient {
                 .then();
     }
     public ValidatableResponse cancel(int track) {
-        String trackNum = "{\"track\": " + track + "}";
+        trackNum = new HashMap<>();
+        trackNum.put("track", track);
         return given()
                 .spec(getBaseSpec())
                 .body(trackNum)

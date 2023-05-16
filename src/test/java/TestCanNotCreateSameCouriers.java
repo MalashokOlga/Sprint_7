@@ -4,37 +4,23 @@ import io.restassured.response.ValidatableResponse;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-import org.junit.runner.RunWith;
-import org.junit.runners.Parameterized;
 
 import static org.junit.Assert.assertEquals;
 
-@RunWith(Parameterized.class)
 public class TestCanNotCreateSameCouriers {
-    private CourierClient courierClient;
-    private Courier courier;
-    private Courier courier2;
-    private int courierId;
+    private static CourierClient courierClient;
+    private static Courier courier;
+    private static Courier courier2;
+    private static int courierId;
 
-    @Parameterized.Parameter
-    public String password1;
-    @Parameterized.Parameter(1)
-    public String password2;
-
-    @Parameterized.Parameters(name = "{index}: данные для создания курьера")
-    public static Object[][] loginData() {
-        return new Object[][] {{"password1", "password1"},
-                {"password1", "password2"}
-        };
-    }
     @Before
     public void setUp() {
         courierClient = new CourierClient();
-        courier = new Courier("login1", password1, "firstName1");
+        courier = CourierGenerator.getRandom();
         courierClient.create(courier);
         ValidatableResponse loginResponse = courierClient.login(CourierCredentials.from(courier));
         courierId = loginResponse.extract().path("id");
-        courier2 = new Courier("login1", password2, "firstName2");
+        courier2 = new Courier(courier.getLogin(), courier.getPassword(), courier.getFirstName());
     }
 
     @Test
