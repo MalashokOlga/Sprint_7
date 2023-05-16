@@ -1,4 +1,8 @@
-public class Order {
+package ru.pojo_objects;
+
+public class Orders {
+    private int id;
+    private int courierId;
     private String firstName;
     private String lastName;
     private String address;
@@ -6,23 +10,32 @@ public class Order {
     private String phone;
     private int rentTime;
     private String deliveryDate;
+    private int track;
     private String[] color;
     private String comment;
+    private String createdAt;
+    private String updatedAt;
+    private int status;
 
-    public Order() {
+    public Orders() {
     }
 
-    public Order(String firstName, String lastName, String address, String metroStation, String phone, int rentTime, String deliveryDate, String[] color, String comment) {
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.address = address;
-        this.metroStation = metroStation;
-        this.phone = phone;
-        this.deliveryDate = deliveryDate;
-        this.color = color;
-        this.comment = comment;
+
+    public int getId() {
+        return id;
     }
 
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public int getCourierId() {
+        return courierId;
+    }
+
+    public void setCourierId(int courierId) {
+        this.courierId = courierId;
+    }
 
     public String getFirstName() {
         return firstName;
@@ -80,6 +93,14 @@ public class Order {
         this.deliveryDate = deliveryDate;
     }
 
+    public int getTrack() {
+        return track;
+    }
+
+    public void setTrack(int track) {
+        this.track = track;
+    }
+
     public String[] getColor() {
         return color;
     }
@@ -94,5 +115,29 @@ public class Order {
 
     public void setComment(String comment) {
         this.comment = comment;
+    }
+
+    public String getCreatedAt() {
+        return createdAt;
+    }
+
+    public void setCreatedAt(String createdAt) {
+        this.createdAt = createdAt;
+    }
+
+    public String getUpdatedAt() {
+        return updatedAt;
+    }
+
+    public void setUpdatedAt(String updatedAt) {
+        this.updatedAt = updatedAt;
+    }
+
+    public int getStatus() {
+        return status;
+    }
+
+    public void setStatus(int status) {
+        this.status = status;
     }
 }
